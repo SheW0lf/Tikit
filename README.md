@@ -27,16 +27,24 @@ This is a work in progress that I would LOVE to collaborate on! This is open to 
 At some point soon, I will file some issues for work that has been hashed out. In the mean time, feel free to browse the current code, and play around with some solutions! Get creative! Hell knows I am abysmal at design...
 
 1. Clone the repo to your computer:
-`> git clone https://github.com/SheW0lf/Tikit.git`
+```code
+> git clone https://github.com/SheW0lf/Tikit.git
+```
 
 2. Set the folder to your current directory:
-`> cd Tikit/client`
+```code
+> cd Tikit/client
+```
 
 3. Install the packages:
-`> yarn install`
+```code
+> yarn install
+```
 
 4. Start the app:
-`> yarn start`
+```code
+> yarn start
+```
 
 Once you have it running, make some changes and open a Pull Request on the repo! I will probably add more details to the PR process, but for now, we will see how this goes...
 
