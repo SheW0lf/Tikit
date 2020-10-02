@@ -22,3 +22,22 @@ The tech stack I am planning on using for the project
 
 ## [Discord Link](https://discord.gg/Yn88v7y)
 This is a work in progress that I would LOVE to collaborate on! This is open to everyone with any skill level, and will be in active achitectural development for a while. Any input about features, specific libraries, architecture, or general questions are welcomed, and greatly appreciated! Please feel free to join the Discord server to discuss project, or ask questions. I would love to hear from you!
+
+## How To Contribute
+At some point soon, I will file some issues for work that has been hashed out. In the mean time, feel free to browse the current code, and play around with some solutions! Get creative! Hell knows I am abysmal at design...
+
+1. Clone the repo to your computer:
+`> git clone https://github.com/SheW0lf/Tikit.git`
+
+2. Set the folder to your current directory:
+`> cd Tikit/client`
+
+3. Install the packages:
+`> yarn install`
+
+4. Start the app:
+`> yarn start`
+
+Once you have it running, make some changes and open a Pull Request on the repo! I will probably add more details to the PR process, but for now, we will see how this goes...
+
+# Happy Hacking!
