@@ -46,6 +46,6 @@ At some point soon, I will file some issues for work that has been hashed out. I
 > yarn start
 ```
 
-Once you have it running, make some changes and open a Pull Request on the repo! I will probably add more details to the PR process, but for now, we will see how this goes...
+Once you have it running, make some changes in a new branch and open a Pull Request on the repo! I will probably add more details to the PR process, but for now, we will see how this goes...
 
 # Happy Hacking!
