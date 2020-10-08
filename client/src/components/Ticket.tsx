@@ -1,15 +1,19 @@
 import React from 'react';
-
-type Label = ['bug', 'ticket'];
-
-interface TicketProps {
+type Props = {
 	title: string;
-	tags: Label[] | Label;
+	tags: string;
 	date: string;
-}
+};
 
-const Ticket = ({ title, tags, date }: TicketProps) => {
-	return <div></div>;
+
+const Ticket = ({ title, tags, date }: Props) => {
+	return (
+		<div className="box-border p-4 m-5 border-2 border-pink bg-gray-200 rounded">
+			<h3 className="text-green text-start p-2">{title}</h3>
+			<p className="text-green text-start p-2">{tags}</p>
+			<p className="text-green text-start p-2">{date}</p>
+		</div>
+	);
 };
 
 export default Ticket;

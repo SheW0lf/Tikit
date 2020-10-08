@@ -1,13 +1,16 @@
 import React from 'react';
+import Ticket from './Ticket'
 
 export function Board() {
 	type Props = {
 		title: string;
+
 	};
 	const Column = ({ title }: Props) => {
 		return (
 			<div className="bg-dark-blue min-h-full">
 				<h3 className="text-green text-center p-2">{title}</h3>
+				<Ticket title="example title" tags="bug" date="todays date"></Ticket>
 			</div>
 		);
 	};
