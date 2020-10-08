@@ -16,7 +16,7 @@ export function Board() {
 	};
 	return (
 		<div className="grid grid-cols-4 bg-blue gap-6 m-10 p-6 min-h-screen">
-			<Column title="To Do"></Column>
+			<Column title="To Do" />
 			<Column title="In Progress" />
 			<Column title="Needs Review" />
 			<Column title="Done" />
