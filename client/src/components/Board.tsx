@@ -10,7 +10,7 @@ export function Board() {
 		return (
 			<div className="bg-dark-blue min-h-full">
 				<h3 className="text-green text-center p-2">{title}</h3>
-				<Ticket title="example title" tags="bug" date="todays date"></Ticket>
+				<Ticket title="example title" tags={["bug"]} date="todays date"></Ticket>
 			</div>
 		);
 	};
