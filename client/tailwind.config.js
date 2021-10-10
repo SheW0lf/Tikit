@@ -5,13 +5,14 @@ module.exports = {
 	},
 	purge: [],
 	theme: {
-		extend: {},
-		colors: {
-			blue: '#222946',
-			'dark-blue': '#171c31',
-			'light-blue': '#08f7fe',
-			pink: '#fe53bb',
-			green: '#00ff85',
+		extend: {
+			colors: {
+				blue: '#222946',
+				'dark-blue': '#171c31',
+				'light-blue': '#08f7fe',
+				pink: '#fe53bb',
+				green: '#00ff85',
+			},
 		},
 	},
 	variants: {},
