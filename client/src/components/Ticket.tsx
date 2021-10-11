@@ -18,7 +18,7 @@ const Ticket = ({ id, title, tags, date, index }: TicketProps) => {
   return (
     <Draggable draggableId={id} index={index}>
       {(provided, snapshot) => {
-        const ticketCardStyleClasses = "box-border p-4 m-5 bg-blue rounded cursor-pointer";
+        const ticketCardStyleClasses = "box-border p-4 m-2 bg-blue rounded cursor-pointer";
 
         return (
           <div

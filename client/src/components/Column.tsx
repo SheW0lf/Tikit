@@ -6,7 +6,7 @@ import Ticket from './Ticket';
 export default class Column extends React.Component<ColumnProps> {
     render() {
         return (
-            <div className="bg-dark-blue min-h-full flex flex-col ">
+            <div className="bg-dark-blue min-h-full flex flex-col">
 				<h3 className="text-green text-center p-2 text-2xl">{this.props.title}</h3>
                 <Droppable droppableId={this.props.id}>
                     {(provided, snapshot) => {
