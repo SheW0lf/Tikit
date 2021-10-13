@@ -1,15 +1,17 @@
 import React, { useCallback, useState } from "react";
 import CardModal from "./CardModal";
 import Tag from "./Tag";
-export type Label = "bug" | "ticket";
+
+export type Label = string;
 
 interface Details {
   title: string;
   tags: Label[];
   date: string;
+  description: string;
 }
 
-const Ticket = ({ title, tags, date }: Details) => {
+const Ticket = ({ title, tags, date, description }: Details) => {
   const [showCard, setShowCard] = useState(false);
 
   const handleShowCard = useCallback(() => {
@@ -26,7 +28,7 @@ const Ticket = ({ title, tags, date }: Details) => {
         <CardModal
           title={title}
           labels={tags}
-          content={"some content"}
+          content={description}
           showCard={handleCloseCard}
         />
       )}
