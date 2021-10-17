@@ -26,12 +26,12 @@ export default function Board() {
 		const finishColumn = columns.find(({ id }) => id === destination.droppableId);
 	
 		if (startColumn === finishColumn) {
-			const newTicketIds = Array.from(startColumn!.ticketIds!);
+			const newTicketIds = Array.from(sanitizedValue(startColumn).ticketIds || []); // || [] has been added to handle null initializations
 			newTicketIds.splice(source.index, 1);
 			newTicketIds.splice(destination.index, 0, draggableId);
 	
 			const newStartColumn: ColumnData = {
-				...startColumn!,
+				...sanitizedValue(startColumn),
 				ticketIds: newTicketIds
 			};
 			const newColumnsState =  [
