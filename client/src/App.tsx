@@ -5,7 +5,7 @@ import './tailwind.output.css';
 
 function App() {
 	return (
-		<div>
+		<div className="bg-dark-blue">
 			<Header />
 			<Board />
 		</div>
