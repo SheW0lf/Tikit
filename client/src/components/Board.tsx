@@ -27,7 +27,7 @@ export function Board() {
           return labelsObject.name
         })}
         //converts from ISO-8601 date format
-        date={parseISOString(element.created_at).toString()}
+        date={parseISOString(element.created_at)}
       />
     )
   })
