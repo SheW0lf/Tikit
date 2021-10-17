@@ -14,13 +14,13 @@ export interface TicketProps extends TicketData {
 export interface ColumnProps {
     id: string;
     title: string;
-	tickets?: TicketData[]
+	tickets: TicketData[]
 }
 
 export interface ColumnData {
     id: string;
     title: string;
-	ticketIds?: string[]
+	ticketIds: string[]
 }
 
 export interface BoardState {
