@@ -31,25 +31,27 @@ This is a work in progress that I would LOVE to collaborate on! This is open to 
 
 At some point soon, I will file some issues for work that has been hashed out. In the mean time, feel free to browse the current code, and play around with some solutions! Get creative! Hell knows I am abysmal at design...
 
-1. Clone the repo to your computer:
+1. Fork the repo
+
+2. Clone the forked repo to your local machine:
 
 ```code
-> git clone https://github.com/SheW0lf/Tikit.git
+> git clone <url of repo>
 ```
 
-2. Set the folder to your current directory:
+3. Set the folder to your current directory:
 
 ```code
 > cd Tikit/client
 ```
 
-3. Install the packages:
+4. Install the packages:
 
 ```code
 > yarn install
 ```
 
-4. Start the app:
+5. Start the app:
 
 ```code
 > yarn start
