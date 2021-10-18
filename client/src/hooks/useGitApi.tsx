@@ -1,11 +1,13 @@
 import { useState, useEffect } from "react";
 import axios, { AxiosResponse } from "axios";
 import { gitApiResponse } from "./gitApiResponseType";
+import { TicketData } from "../components/Models";
 
 export const useGitApi = () => {
   const [response, setResponse] = useState<gitApiResponse[]>([]);
   const [error, setError] = useState("");
   const [loading, setLoading] = useState(true);
+  const [ticket, setTicket] = useState<TicketData[]>([])
 
   const fetchData = () => {
     axios
