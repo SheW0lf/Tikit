@@ -1,6 +1,6 @@
 import React, { useCallback } from 'react';
 import Tag from './Tag';
-import { Label } from './Ticket';
+import { Label } from  './Models';
 
 interface Details {
 	title: string;
