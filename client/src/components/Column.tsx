@@ -1,9 +1,11 @@
 import React from 'react';
 import { Droppable } from 'react-beautiful-dnd';
+import { useGitApi } from '../hooks/useGitApi';
 import { ColumnProps } from './Models';
 import Ticket from './Ticket';
 
 export default function Column(props: ColumnProps) {
+
     return (
         <div className="bg-dark-blue min-h-full flex flex-col">
             <h3 className="text-green text-center p-2 text-2xl">{props.title}</h3>

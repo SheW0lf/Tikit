@@ -5,7 +5,7 @@ import { BoardState, ColumnData, TicketData } from './Models';
 import { DragDropContext, OnDragEndResponder } from 'react-beautiful-dnd';
 
 export default function Board() {
-	const tickets = initialData.tickets;
+	const tickets: TicketData[] = initialData.tickets;
 	const [columns, setColumns] = useState(initialData.columns);
 
 	const onDragEnd: OnDragEndResponder = (result) => {
